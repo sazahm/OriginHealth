@@ -1,4 +1,4 @@
-import react, { Fragment } from "react";
+import  { Fragment } from "react";
 import {Button, Table} from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Data from "../Core/Data";

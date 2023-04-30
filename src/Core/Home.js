@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import Data from "../Core/Data";
-import { Card, Col, Dropdown, Row } from 'react-bootstrap';
+import { Card, Col,  Row } from 'react-bootstrap';
 
 const Home = () => {
 

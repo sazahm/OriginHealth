@@ -1,27 +1,12 @@
-import react, { Fragment } from "react";
 import {Button, Table} from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
 import LabelData from "../Core/LabelData";
-import {Link, useNavigate} from 'react-router-dom'
+import {Link, } from 'react-router-dom'
 
 function AdminDashboard() {
 
-    let history = useNavigate();
 
-    const handleEdit = (id,tag) => {
-        localStorage.setItem('Tag', tag)
-    }
 
-    const handleDelete = (id) => {
-        var index = LabelData.map(function(e){
-            return e.id
-        }).indexOf(id);
-
-        LabelData.splice(index,1);
-
-        history('/admindashboard')
-
-    }
 
     return(
         <>
